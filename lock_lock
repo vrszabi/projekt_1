@@ -1,0 +1,13 @@
+wifire csatlakozik
+rfid bemenetet olvas 0.5 másodpercenként
+ha van rfid találta, html request open valami.php?user_id=rfid_id_user
+php szerverről visszajön hogy authorized vagy nem
+if authorised
+  lock_open()
+ else
+  error led pirosan világít
+  
+
+
+lock_open()
+lock_close()
